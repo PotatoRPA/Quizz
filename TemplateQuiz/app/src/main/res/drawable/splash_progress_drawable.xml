@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Фон прогресс бара -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <solid android:color="@color/bg_progress_bar" />
+        </shape>
+    </item>
+
+    <!-- Заполненная часть (прогресс) с градиентом -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:radius="10dp" />
+                <gradient
+                    android:type="linear"
+                    android:angle="0"
+                    android:startColor="@color/progress_bar_start_color"
+                    android:endColor="@color/progress_bar_end_color" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/bg_result_stat_card"
+    android:layout_margin="5dp">
+
+    <FrameLayout
+        android:layout_width="32dp"
+        android:layout_height="32dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_result_stat_circle" />
+
+        <ImageView
+            android:id="@+id/statIcon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_stat_correct" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/statTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="14 questions"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/termina_test_demi" />
+
+    <TextView
+        android:id="@+id/statSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Correct answer"
+        android:textSize="12sp"
+        android:textColor="#80000000"
+        android:fontFamily="@font/termina_test_regular" />
+</LinearLayout>

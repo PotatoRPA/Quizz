@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Нажатое состояние — чуть темнее -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/home_buttons_rounded_corners" />
+            <gradient
+                android:type="linear"
+                android:angle="0"
+                android:startColor="#8EDB26"
+                android:endColor="#E6B91F" />
+        </shape>
+    </item>
+
+    <!-- Обычное состояние -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/home_buttons_rounded_corners" />
+            <gradient
+                android:type="linear"
+                android:angle="0"
+                android:startColor="@color/start_btn_first_color"
+                android:endColor="@color/start_btn_second_color" />
+        </shape>
+    </item>
+
+</selector>

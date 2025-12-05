@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Нажатое состояние — лёгкий серый -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/home_buttons_rounded_corners" />
+            <solid android:color="@color/other_btn_color_pressed" />
+        </shape>
+    </item>
+
+    <!-- Обычное состояние -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/home_buttons_rounded_corners" />
+            <solid android:color="@color/other_btn_color" />
+        </shape>
+    </item>
+
+</selector>

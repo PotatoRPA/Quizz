@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "question": "Which club Lionel Messi play for?",
+    "answers": [
+      "Inter Miami",
+      "Barcelona",
+      "PSG",
+      "Real Madrid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Who won the FIFA World Cup in 2018?",
+    "answers": [
+      "Germany",
+      "France",
+      "Brazil",
+      "Argentina"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "How many players are there in a football team on the field?",
+    "answers": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctIndex": 2
+  }
+]

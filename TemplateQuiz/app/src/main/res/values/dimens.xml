@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_center_text_size">42sp</dimen>
+    <dimen name="splash_bottom_text_size">18sp</dimen>
+
+    <dimen name="home_center_text_size">32sp</dimen>
+
+    <dimen name="home_buttons_rounded_corners">10dp</dimen>
+    <dimen name="home_buttons_text_size">16sp</dimen>
+</resources>

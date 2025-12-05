@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="status_bar_color">#5C2F8D</color>
+    <color name="navigation_bar_color">#5C2F8D</color>
+    
+    <color name="splash_left_text_color">#FBB64F</color>
+    <color name="splash_right_text_color">#FFFFFF</color>
+    <color name="splash_bottom_text_color">#FFFFFF</color>
+
+    <color name="bg_progress_bar">#59307B</color>
+    <color name="progress_bar_start_color">#B04CEC</color>
+    <color name="progress_bar_end_color">#FDB94B</color>
+    
+    <color name="start_btn_first_color">#A3CE31</color>
+    <color name="start_btn_first_color_pressed">#81A326</color>
+    <color name="start_btn_second_color">#B9FF01</color>
+    <color name="start_btn_second_color_pressed">#A1DE00</color>
+
+    <color name="other_btn_color">#FFFFFF</color>
+    <color name="other_btn_color_pressed">#F0F0F0</color>
+
+    <color name="btns_text_color">#0F0F0F</color>
+    <color name="progress_color">#B9FF01</color>
+
+    <color name="quiz_btn_color">#5C2F8D</color>
+    <color name="quiz_btn_color_pressed">#46236B</color>
+
+    <color name="quiz_btn_stroke_correct">#94DAB7</color>
+    <color name="quiz_btn_stroke_wrong">#E46565</color>
+
+    <color name="correct_answer_color">#B9FF01</color>
+    <color name="incorrect_answer_color">#FF262B</color>
+</resources>
