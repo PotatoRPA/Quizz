@@ -63,7 +63,7 @@
             android:background="@drawable/bg_btn_menu_secondary"
             android:text="@string/back"
             android:textColor="@color/btns_text_color"
-            android:textSize="@dimen/home_buttons_text_size"
+            android:textSize="@dimen/action_button_text_size"
             android:fontFamily="@font/termina_test_demi"
             android:textAllCaps="false"
             android:layout_gravity="center"

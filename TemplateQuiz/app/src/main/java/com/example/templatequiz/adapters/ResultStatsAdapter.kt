@@ -17,7 +17,7 @@ class ResultStatsAdapter(
         fun bind(item: ResultStat) = with(binding) {
             statIcon.setImageResource(item.iconRes)
             statTitle.text = item.title
-            statSubtitle.text = item.subtitle
+            statSubtitle.text = item.description
         }
     }
 

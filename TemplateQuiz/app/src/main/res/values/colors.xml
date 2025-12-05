@@ -11,9 +11,9 @@
     <color name="status_bar_color">#5C2F8D</color>
     <color name="navigation_bar_color">#5C2F8D</color>
     
-    <color name="splash_left_text_color">#FBB64F</color>
-    <color name="splash_right_text_color">#FFFFFF</color>
-    <color name="splash_bottom_text_color">#FFFFFF</color>
+    <color name="title_left_text_color">#FBB64F</color>
+    <color name="title_right_text_color">#FFFFFF</color>
+    <color name="splash_footer_text_color">#FFFFFF</color>
 
     <color name="bg_progress_bar">#59307B</color>
     <color name="progress_bar_start_color">#B04CEC</color>
