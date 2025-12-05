@@ -71,7 +71,7 @@ class ResultFragment : Fragment() {
         val items: List<AnswerItem> =
             if (answerStates.isNotEmpty()) {
                 answerStates.mapIndexed { index, state ->
-                    AnswerItem(number = index + 1, state = state)
+                    AnswerItem(questionNumber = index + 1, answerState = state)
                 }
             } else {
                 val count = if (totalCount > 0) totalCount else 10
@@ -83,7 +83,7 @@ class ResultFragment : Fragment() {
         val adapter = AnswersAdapter(items) { item ->
             // сюда придёт клик по номеру вопроса
             // например, можно открыть просмотр конкретного вопроса
-            // scrollToQuestion(item.number - 1)
+            // scrollToQuestion(item.questionNumber - 1)
         }
 
         binding.answersRecyclerView.apply {
@@ -101,22 +101,22 @@ class ResultFragment : Fragment() {
             ResultStat(
                 iconRes = R.drawable.ic_stat_correct,    // зелёная галочка
                 title = "$correctCount questions",
-                subtitle = "Correct answer"
+                description = "Correct answer"
             ),
             ResultStat(
                 iconRes = R.drawable.ic_stat_wrong,      // красный крестик
                 title = "$wrongCount questions",
-                subtitle = "Incorrect answer"
+                description = "Incorrect answer"
             ),
             ResultStat(
                 iconRes = R.drawable.ic_stat_skipped,    // иконка «пропуск»
                 title = "$skippedCount questions",
-                subtitle = "Skipped questions"
+                description = "Skipped questions"
             ),
             ResultStat(
                 iconRes = R.drawable.ic_stat_total,      // любая иконка для итога
                 title = "$totalCount questions",
-                subtitle = "Completion questions"
+                description = "Completion questions"
             )
         )
 

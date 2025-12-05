@@ -53,8 +53,8 @@ class HomeFragment: Fragment() {
         val firstWord   = parts[0]
         val secondStart = text.indexOf(parts[1])
 
-        val leftColor   = ContextCompat.getColor(requireContext(), R.color.splash_left_text_color)
-        val rightColor  = ContextCompat.getColor(requireContext(), R.color.splash_right_text_color)
+        val leftColor   = ContextCompat.getColor(requireContext(), R.color.title_left_text_color)
+        val rightColor  = ContextCompat.getColor(requireContext(), R.color.title_right_text_color)
 
         val span = SpannableString(text).apply {
             setSpan(

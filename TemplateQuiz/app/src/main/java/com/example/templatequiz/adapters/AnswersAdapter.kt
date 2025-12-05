@@ -21,9 +21,9 @@ class AnswersAdapter(
     ) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: AnswerItem) = with(binding) {
-            answerNumberText.text = item.number.toString()
-            answerNumberText.setResultState(item.state)
-            root.setOnClickListener { onClick(item.number - 1) }
+            answerNumberText.text = item.questionNumber.toString()
+            answerNumberText.setResultState(item.answerState)
+            root.setOnClickListener { onClick(item.questionNumber - 1) }
         }
     }
 
